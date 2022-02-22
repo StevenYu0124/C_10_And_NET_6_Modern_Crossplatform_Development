@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>_01</RootNamespace>
+    <!-- default usings -->
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+<!-- config of 01.GlobalUsings.g.cs -->
+  <ItemGroup>
+    <Using Include="System.Numerics" />
+    <Using Remove="System.IO" />
+    <Using Remove="System.Threading" />
+  </ItemGroup>
+
+</Project>

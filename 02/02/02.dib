@@ -1,0 +1,49 @@
+#!csharp
+
+int decimalNotation = 2_000_000;
+int binaryNotation = 0b_0001_1110_1000_0100_1000_0000;
+int hexNotation = 0x_001E_8480;
+
+Console.WriteLine(decimalNotation == binaryNotation);
+Console.WriteLine(decimalNotation == hexNotation);
+
+#!csharp
+
+Console.WriteLine($"float: {sizeof(float)} bytes");
+Console.WriteLine($"double: {sizeof(double)} bytes");
+Console.WriteLine($"int: {sizeof(int)} bytes");
+Console.WriteLine($"long: {sizeof(long)} bytes");
+Console.WriteLine($"decimal: {sizeof(decimal)} bytes");
+
+#!csharp
+
+Console.WriteLine($"decimal min: {decimal.MinValue}");
+Console.WriteLine($"decimal max: {decimal.MaxValue}");
+
+#!csharp
+
+Console.WriteLine("double:");
+Console.WriteLine($"0.1 + 0.2 == 0.3 => {0.1 + 0.2 == 0.3}");
+Console.WriteLine("decimal:");
+Console.WriteLine($"0.1 + 0.2 == 0.3 => {0.1m + 0.2m == 0.3m}");
+
+#!csharp
+
+// long
+long l = 1L;
+// ulong
+ulong ul = 1ul;
+// decimal
+decimal dec = 1m;
+// float
+float f = 0.1f;
+
+//double
+double d1 = 100.0;
+// or
+double d2 = 100.0d;
+
+// byte
+byte b1 = (byte)100;
+// or
+byte b2 = 100;

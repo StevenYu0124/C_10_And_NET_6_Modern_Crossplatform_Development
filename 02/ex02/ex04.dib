@@ -1,0 +1,12 @@
+#!markdown
+
+1. string
+2. float or double, float should accruate enough, but I am not sure about the performance
+3. int
+4. decimal
+5. string
+6. decimal
+7. float or double
+8. long or ulong, consider there are countries with billions of people like China
+9. decimal or double, google said it is 200,000,000,000,000,000,000,000
+10. int
